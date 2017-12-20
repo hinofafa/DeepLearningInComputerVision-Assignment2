@@ -40,6 +40,7 @@ def conv_forward_im2col(x, w, b, conv_param):
     return out, cache
 
 
+
 def conv_forward_strides(x, w, b, conv_param):
     N, C, H, W = x.shape
     F, _, HH, WW = w.shape
