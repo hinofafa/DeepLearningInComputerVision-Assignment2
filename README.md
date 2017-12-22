@@ -19,8 +19,6 @@ Important note from YY: we have updated the skeleton codes, please download it a
 Download data: Once you have the starter code, you will need to download the CIFAR-10 dataset. Run the following from the assignment2 directory:
 
 cd cs231n/datasets folder and click get_datasets.py to run the Python code to download the data.
-Submitting your work:
-Whether you work on the assignment locally or in the lab, once you are done working run the Python code collectSubmission.py; this will produce a file called assignment2.7z. Upload this file to CASS. You can find CASS instruction of uploading your submission here.
 
 Q1: Fully-connected Neural Network (25 points)
 The IPython notebook FullyConnectedNets.ipynb will introduce you to our modular layer design, and then use those layers to implement fully-connected networks of arbitrary depth. To optimize these models you will implement several popular update rules.
